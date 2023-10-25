@@ -1,0 +1,140 @@
+.best-card {
+    box-shadow: 0px 0px 5px rgb(133, 132, 132);
+    cursor: pointer;
+    transition-property: all;
+    transition: 0.4;
+
+}
+
+.best-card .here:hover {
+    transform: translateY(-15px);
+}
+
+.container {
+    margin-top: 80px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-content h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.card-content h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.card-content p {
+    font-weight: bold;
+}
+
+.card-img {
+    height: 550px;
+}
+
+.row-2 {
+    height: 80vh;
+    width: 100%;
+    background-image: url(images/17.jpg);
+    background-size: cover;
+}
+
+.row-2 h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-left: 10px;
+
+}
+
+.change-content:after {
+    content: '';
+    animation: changeText 5s infinite linear;
+    color: orange;
+}
+
+@keyframes changeText {
+    0% {
+        content: "Cheese Pizza"
+    }
+
+    20% {
+        content: "Beef Pizza"
+    }
+
+    40% {
+        content: "Sicilian Pizza"
+    }
+
+    60% {
+        content: "California-style Pizza"
+    }
+
+    80% {
+        content: "Margherita Pizza"
+    }
+
+    100% {
+        content: "Calzone Pizza"
+    }
+}
+
+.row-2 h2 {
+    color: orange;
+    font-weight: bold;
+    font-size: 50px;
+    padding-left: 10px;
+}
+
+#btn button {
+    height: 40px;
+    width: 140px;
+    border: none;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: orange;
+    font-size: 20px;
+    transition: all;
+    cursor: pointer;
+}
+
+#btn button:hover {
+    background-color: orange;
+    box-shadow: 0 0 5px orange,
+        0 0 20px orange,
+        0 0 70px orange,
+        0 0 140px orange;
+}
+.text-center{
+    color: black;
+}
+.row .form-group{
+    margin-top: 10px;
+}
+#footer{
+    background-color: black;
+    font-size: 14px;
+    padding: 30px;
+    margin-top: 40px;
+}
+#footer .footer-links a{
+    color: white;
+    font-weight: bold;
+    padding-left: 14px;
+}
+#footer .footer-links a:first-child{
+    padding-left: 0%;
+
+}
+#footer .footer-links a:hover{
+    color: orange;
+
+}
+.copy-right{
+    color: white;
+}
